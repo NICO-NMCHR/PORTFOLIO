@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Nicolas Nonnenmacher</title>
+  <meta name="description" content="Portfolio de Nicolas Nonnenmacher — Réseaux, cybersécurité et développement web." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="#accueil">Nicolas<span>Nonnenmacher</span></a>
+    <nav id="nav" class="nav">
+      <a href="#accueil">Accueil</a>
+      <a href="#apropos">À propos</a>
+      <a href="#parcours">Parcours</a>
+      <a href="#competences">Compétences</a>
+      <a href="#projets">Projets</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="menu">☰</button>
+  </div>
+</header>
+
+<main>
+  <!-- Accueil -->
+  <section id="accueil" class="section hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <p class="hello">Bienvenue sur mon portfolio</p>
+        <h1>Je suis <span class="accent">Nicolas</span> Nonnenmacher</h1>
+        <p class="lead">Étudiant en BUT Réseaux & Télécommunications, passionné par la cybersécurité, les réseaux et le développement web.</p>
+        <div class="cta">
+          <a class="btn primary" href="assets/CV_Nicolas_Nonnenmacher.pdf" download>Télécharger mon CV</a>
+          <a class="btn ghost" href="#projets">Découvrir mes projets</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="assets/photo.png" alt="Photo de Nicolas Nonnenmacher" />
+      </div>
+    </div>
+  </section>
+
+  <!-- À propos -->
+  <section id="apropos" class="section">
+    <div class="container">
+      <h2>À propos de moi</h2>
+      <p>Étudiant en BUT 2 Réseaux & Télécommunications, motivé par le cloud et la programmation, je recherche un stage du <strong>7 avril au 19 juin 2026</strong>. J’ai une expérience polyvalente (vente, électricité, manutention) et j’aime apprendre par les projets concrets.</p>
+      <ul class="about-list">
+        <li><strong>Atouts :</strong> Autonomie, adaptabilité, relation client.</li>
+        <li><strong>Tech :</strong> HTML/CSS/JS, Python, C/C++, SQL, Linux, routage Cisco, TCP/IP, Wireshark, VoIP.</li>
+        <li><strong>Langues :</strong> Anglais A1, Espagnol A1.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Parcours : frise horizontale auto défilante -->
+  <section id="parcours" class="section bg-soft">
+    <div class="container">
+      <h2>Mon parcours</h2>
+    </div>
+    <div class="timeline-wrap">
+      <div class="timeline-marquee">
+        <div class="timeline">
+          <div class="step"><div class="dot"></div><div class="content"><h3>Bac STI2D</h3><p>Lycée Boissy d’Anglas</p></div></div>
+          <div class="step"><div class="dot"></div><div class="content"><h3>BTS NDRC</h3><p>Saint-Denis</p></div></div>
+          <div class="step"><div class="dot"></div><div class="content"><h3>Missions d’intérim</h3><p>Bâtiment, électricité, manutention</p></div></div>
+          <div class="step"><div class="dot"></div><div class="content"><h3>BUT Réseaux & Télécom</h3><p>2 années</p></div></div>
+          <!-- duplicate for infinite loop -->
+          <div class="step"><div class="dot"></div><div class="content"><h3>Bac STI2D</h3><p>Lycée Boissy d’Anglas</p></div></div>
+          <div class="step"><div class="dot"></div><div class="content"><h3>BTS NDRC</h3><p>Saint-Denis</p></div></div>
+          <div class="step"><div class="dot"></div><div class="content"><h3>Missions d’intérim</h3><p>Bâtiment, électricité, manutention</p></div></div>
+          <div class="step"><div class="dot"></div><div class="content"><h3>BUT Réseaux & Télécom</h3><p>2 années</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Compétences : barres uniquement -->
+  <section id="competences" class="section">
+    <div class="container">
+      <h2>Compétences</h2>
+      <div class="skills logos">
+        <article class="skill card reveal"><div class="skill-head"><span class="name">Python</span></div><div class="bar"><span class="fill orange" style="--val:70%"></span></div></article>
+        <article class="skill card reveal"><div class="skill-head"><span class="name">HTML / CSS / JS</span></div><div class="bar"><span class="fill orange" style="--val:65%"></span></div></article>
+        <article class="skill card reveal"><div class="skill-head"><span class="name">SQL</span></div><div class="bar"><span class="fill orange" style="--val:60%"></span></div></article>
+        <article class="skill card reveal"><div class="skill-head"><span class="name">C / C++</span></div><div class="bar"><span class="fill red" style="--val:35%"></span></div></article>
+        <article class="skill card reveal"><div class="skill-head"><span class="name">Linux</span></div><div class="bar"><span class="fill orange" style="--val:55%"></span></div></article>
+        <article class="skill card reveal"><div class="skill-head"><span class="name">Réseaux (Cisco)</span></div><div class="bar"><span class="fill orange" style="--val:60%"></span></div></article>
+        <article class="skill card reveal"><div class="skill-head"><span class="name">Wireshark</span></div><div class="bar"><span class="fill orange" style="--val:60%"></span></div></article>
+        <article class="skill card reveal"><div class="skill-head"><span class="name">Arduino</span></div><div class="bar"><span class="fill orange" style="--val:45%"></span></div></article>
+      </div>
+      <p class="muted legend">Légende : <span class="dot red"></span> faible • <span class="dot orange"></span> moyen • <span class="dot green"></span> acquis</p>
+    </div>
+  </section>
+
+  <!-- Projets : cartes cliquables (modales), fond neutre, sans images -->
+  <section id="projets" class="section bg-soft">
+    <div class="container">
+      <h2>Projets</h2>
+      <div class="cards projects neutral">
+        <article class="card project open-modal" data-modal="modal1">
+          <h3>Sensibilisation à l’hygiène informatique & cybersécurité</h3>
+          <p class="muted">Analyse de cyberattaques (2022–2024) et vulgarisation des bonnes pratiques.</p>
+          <button class="btn small">Détails</button>
+        </article>
+        <article class="card project open-modal" data-modal="modal2">
+          <h3>Introduction à l’e-réputation</h3>
+          <p class="muted">Mécanismes, risques et prévention auprès des élèves.</p>
+          <button class="btn small">Détails</button>
+        </article>
+        <article class="card project open-modal" data-modal="modal3">
+          <h3>Construire un réseau informatique pour une PME</h3>
+          <p class="muted">VLANs, services, DMZ, firewall ASA et routage dynamique.</p>
+          <button class="btn small">Détails</button>
+        </article>
+        <article class="card project open-modal" data-modal="modal4">
+          <h3>Mesurer et caractériser un système de télésurveillance</h3>
+          <p class="muted">Prototype IoT économe avec UCA LoRa et campagne de mesures.</p>
+          <button class="btn small">Détails</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modales -->
+  <div id="modal1" class="modal"><div class="modal-dialog"><button class="close" aria-label="Fermer">×</button><h3>Sensibilisation à l’hygiène informatique & cybersécurité</h3><p><strong>2024 • Projet universitaire • Duo</strong></p><p>Étude et vulgarisation des menaces, vulnérabilités et attaques en cybersécurité. Analyse de <strong>10 cyberattaques majeures</strong> (2022–2024) : mécanismes, impacts, leçons à retenir. Réalisation d’un <strong>schéma explicatif</strong>, recommandations (mots de passe, MFA, phishing, mises à jour) et <strong>vidéo pédagogique</strong>.</p><ul><li><strong>Objectifs :</strong> Analyser des attaques récentes, comprendre les mécanismes et impacts, proposer des protections.</li><li><strong>Livrables :</strong> Présentation, synthèse des attaques, schéma explicatif, vidéo.</li></ul></div></div>
+  <div id="modal2" class="modal"><div class="modal-dialog"><button class="close" aria-label="Fermer">×</button><h3>Introduction à l’e-réputation</h3><p><strong>2024 • Projet universitaire • Trio</strong></p><p>Sensibilisation aux enjeux, mécanismes et risques liés à l’<strong>e-réputation</strong>. Préparation d’une intervention de prévention destinée à des collégiens/lycéens.</p><ul><li><strong>Objectifs :</strong> Étudier les mécanismes de l’e-réputation, identifier les risques, concevoir la prévention.</li><li><strong>Réalisation :</strong> <strong>Diaporama documentaire</strong>, <strong>diaporama de stratégie</strong>, <strong>jeu de cartes interactif</strong>.</li></ul></div></div>
+  <div id="modal3" class="modal"><div class="modal-dialog"><button class="close" aria-label="Fermer">×</button><h3>Construire un réseau informatique pour une PME</h3><p><strong>2025 • Projet universitaire • Trio</strong></p><p>Simulation d’un réseau d’entreprise à partir d’un <strong>cahier des charges</strong> et d’un plan d’adressage IP initial. Conception d’une architecture robuste répondant aux besoins fonctionnels et de sécurité.</p><ul><li><strong>Exigences :</strong> VLANs, services <strong>DHCP/DNS/HTTP</strong>, <strong>DMZ</strong> publique, <strong>pare-feu ASA</strong>, <strong>routage dynamique</strong> pour l’accès Internet.</li><li><strong>Livrables :</strong> Schémas, configurations, documentation de sécurité, validation.</li></ul></div></div>
+  <div id="modal4" class="modal"><div class="modal-dialog"><button class="close" aria-label="Fermer">×</button><h3>Mesurer et caractériser un système de télésurveillance</h3><p><strong>2025 • Projet universitaire • Quartet</strong></p><p>Prototype de <strong>télésurveillance économe</strong> détectant l’absence d’activité dans un logement, avec alerte via <strong>UCA LoRa</strong>. Mise en place de mesures pour caractériser la transmission et évaluer les <strong>pertes</strong>.</p><ul><li><strong>Objectifs :</strong> Configurer <strong>Arduino IDE</strong> pour programmer les cartes UCA LoRa, interpréter le code, mesurer les pertes.</li><li><strong>Livrables :</strong> Prototype, résultats de mesure, documentation.</li></ul></div></div>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Envie d’échanger ? Écris-moi à <a href="mailto:nico.no@outlook.fr">nico.no@outlook.fr</a> ou utilise le formulaire ci-dessous.</p>
+      <form class="contact-form" name="contact" method="POST" netlify>
+        <input type="hidden" name="form-name" value="contact" />
+        <div class="grid">
+          <input type="text" name="name" placeholder="Votre nom" required />
+          <input type="email" name="email" placeholder="Votre e-mail" required />
+        </div>
+        <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
+        <button type="submit" class="btn primary">Envoyer</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span id="year"></span> Nicolas Nonnenmacher — Portfolio.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
