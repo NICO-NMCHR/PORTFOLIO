@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Nicolas NONNENMACHER</title>
+  <meta name="description" content="Portfolio de Nicolas Nonnenmacher — Réseaux, cybersécurité et développement web." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="#accueil">Nicolas <span>Nonnenmacher</span></a>
+    <nav id="nav" class="nav">
+      <a href="#accueil"><strong>Accueil</strong></a>
+      <a href="#apropos" class="nav-link"><strong>À propos</strong></a>
+      <a href="#experiences" class="nav-link"><strong>Expériences</strong></a>
+      <a href="#competences"><strong>Compétences</strong></a>
+      <a href="#projets"><strong>Projets</strong></a>
+      <a href="#contact"><strong>Contact</strong></a>
+    </nav>
+    <button class="burger" id="burger" aria-label="menu">☰</button>
+  </div>
+</header>
+
+<main>
+  <section id="accueil" class="section hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <p class="hello">Bienvenue sur mon portfolio</p>
+        <h1>Je suis <span class="accent">Nicolas</span> Nonnenmacher</h1>
+        
+        <div class="stage-alert">
+          <span class="icon">📍</span> 
+          <strong>Recherche de Alternance :</strong> Pour l'année 2026 - 2027 
+        </div>
+
+        <p class="lead">Étudiant en BUT Réseaux & Télécommunications, je combine une expérience professionnelle acquise sur le terrain avec une passion pour la cybersécurité et le développement cloud.</p>
+        
+        <div class="cta">
+          <a class="btn primary" href="assets/CV Nicolas NONNENMACHER.pdf" download>Télécharger mon CV</a>
+          <a class="btn ghost" href="#projets">Découvrir mes projets</a>
+        </div>
+      </div>
+      
+      <div class="hero-photo">
+        <img src="photo-cv.png" alt="Photo de Nicolas Nonnenmacher" />
+      </div>
+    </div>
+  </section>
+
+  <section id="apropos" class="section bg-soft">
+    <div class="container">
+      <h2>Qui se cache derrière le code ?</h2>
+      
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="lead">
+            Je ne suis pas le chemin classique de l'étudiant en informatique.
+          </p>
+          <p>
+            Avant de plonger dans le réseau et les lignes de code, j'ai travaillé dans le bâtiment et la vente.
+            Cette première vie professionnelle m'a appris ce qu'on n'apprend pas à l'école : <strong>la gestion du stress,
+            la relation client réelle et la persévérance</strong> face aux imprévus. Elle m'a fait découvrir l'importance d'apprendre à l'école 
+            c'est grâce à cette expérience que le choix de reprendre les études dans un domaine qui me fascine. 
+          </p>
+          <p>
+            Aujourd'hui, j'ai échangé chantier pour Wireshark et VS Code, mais j'ai gardé la même mentalité :
+            <strong>construire des choses solides et durables.</strong> 
+          </p>
+          <p>
+            Quand je ne suis pas en train de configurer un VLAN ou de coder, vous me trouverez sûrement en train de bricoler de réparer ou sur un terrain de foot ou une raquette à la main.
+          </p>
+          
+          <div class="soft-skills">
+            <span class="badge">Curiosité</span>
+            <span class="badge">Adaptabilité</span>
+            <span class="badge">Maturité Professionnelle</span>
+            <span class="badge">Esprit d'équipe</span>
+          </div>
+        </div>
+
+        <div class="about-image-container two-photos">
+          <img src="assets/foot.PNG" alt="Nicolas photo 1" class="hover-img"/>
+          
+          <img src="assets/Tennis.JPG" alt="Nicolas photo 2" class="hover-img"/>
+          
+          <div class="image-decor"></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="parcours" class="section bg-soft">
+    <div class="container">
+      <h2 style="text-align: center;">Mon Parcours</h2>
+      <p class="muted mb-4" style="text-align: center;">Une évolution atypique, forgée par le terrain et la passion de l'informatique.</p>
+      
+      <div class="timeline-centered">
+        
+        <div class="timeline-item">
+          <div class="timeline-content card neutral">
+            <div class="timeline-date">Depuis 2024</div>
+            <h3>BUT Réseaux & Télécommunications</h3>
+            <h4 class="muted" style="margin-top: 5px; font-weight: 400;">IUT de Sophia Antipolis</h4>
+            <p>Formation approfondie en administration systèmes (Linux/Windows), réseaux (Cisco, VLAN), cybersécurité et développement de scripts (Python, Bash).</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-content card neutral">
+            <div class="timeline-date">2023 - 2024</div>
+            <h3>Professionnel du Bâtiment</h3>
+            <h4 class="muted" style="margin-top: 5px; font-weight: 400;">Expérience Terrain</h4>
+            <p>Travail en équipe sur des chantiers exigeants. Développement d'une grande rigueur, d'une capacité d'adaptation technique et du respect strict des normes de sécurité.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-content card neutral">
+            <div class="timeline-date">2021 - 2023</div>
+            <h3>BTS Commerce & Industrie</h3>
+            <h4 class="muted" style="margin-top: 5px; font-weight: 400;">Double cursus & Travail de nuit</h4>
+            <p>Études en commerce alliées à un travail de nuit en usine. Une période intense qui a forgé ma résilience, ma forte éthique de travail et mon sens de la relation client.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-content card neutral">
+            <div class="timeline-date">2021</div>
+            <h3>Obtention du Baccalauréat</h3>
+            <h4 class="muted" style="margin-top: 5px; font-weight: 400;">Le point de départ</h4>
+            <p>Fin des études secondaires et début de mon immersion simultanée dans le monde du travail et de l'enseignement supérieur.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  
+
+  <section id="experiences" class="section">
+    <div class="container">
+      <h2>Mes Expériences Professionnelles</h2>
+      <p class="muted mb-4">Mes années sur le terrain avant ma reconversion dans la tech.</p>
+      
+      <div class="cards neutral">
+        
+        <article class="card">
+          <div class="card-content">
+            <h3 style="color: var(--green);">Conseiller de Vente</h3>
+            <p class="muted" style="font-size: 0.9rem; margin-bottom: 10px;">2021 - 2023 | PixelStore</p>
+            <p>Gestion de la relation client, conseil personnalisé et atteinte des objectifs. Développement d'une forte capacité d'adaptation et d'écoute active.</p>
+            <div class="soft-skills" style="margin-top: 15px;">
+              <span class="badge">Relation Client</span>
+              <span class="badge">Négociation</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-content">
+            <h3 style="color: var(--green);">Professionnel du Bâtiment</h3>
+            <p class="muted" style="font-size: 0.9rem; margin-bottom: 10px;">2023 - 2024 | Cira</p>
+            <p>Travail en équipe sur des chantiers exigeants. Respect strict des normes de sécurité, tenue des délais et résolution de problèmes techniques sur le terrain.</p>
+            <div class="soft-skills" style="margin-top: 15px;">
+              <span class="badge">Rigueur</span>
+              <span class="badge">Gestion du stress</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+ 
+
+  <section id="competences" class="section">
+  <div class="container">
+    <h2 style="text-align: center; margin-bottom: 50px;">Mes Compétences Techniques</h2>
+
+    <div class="skills-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-bottom: 40px;">
+
+      <article class="card reveal" style="padding: 25px 20px; border-radius: 16px; border-bottom: 4px solid #0ea5e9; background: rgba(14, 165, 233, 0.05); box-shadow: 0 4px 15px rgba(14, 165, 233, 0.1);">
+        <div style="font-size: 2.5rem; margin-bottom: 15px;">🌐</div>
+        <h4 style="color: #fff; font-size: 1.2rem; margin-bottom: 10px;">Réseaux (Cisco)</h4>
+        <p style="font-size: 0.9rem; color: #aaa; line-height: 1.5;">Configuration d'équipements réseau en temps limité. Mise en place de connectivité totale, routage, et vérification de la redondance pour anticiper les pannes.</p>
+      </article>
+
+      <article class="card reveal" style="padding: 25px 20px; border-radius: 16px; border-bottom: 4px solid #06b6d4; background: rgba(6, 182, 212, 0.05); box-shadow: 0 4px 15px rgba(6, 182, 212, 0.1);">
+        <div style="font-size: 2.5rem; margin-bottom: 15px;">🦈</div>
+        <h4 style="color: #fff; font-size: 1.2rem; margin-bottom: 10px;">Wireshark</h4>
+        <p style="font-size: 0.9rem; color: #aaa; line-height: 1.5;">Analyse de trafic et filtrage de paquets pour diagnostiquer les lenteurs réseau. Utilisation en contexte de pentest pour intercepter et analyser les données sensibles.</p>
+      </article>
+
+      <article class="card reveal" style="padding: 25px 20px; border-radius: 16px; border-bottom: 4px solid #22c55e; background: rgba(34, 197, 94, 0.05); box-shadow: 0 4px 15px rgba(34, 197, 94, 0.1);">
+        <div style="font-size: 2.5rem; margin-bottom: 15px;">🔐</div>
+        <h4 style="color: #fff; font-size: 1.2rem; margin-bottom: 10px;">Cryptographie</h4>
+        <p style="font-size: 0.9rem; color: #aaa; line-height: 1.5;">Découverte et manipulation des algorithmes de chiffrement (César, AES, DES) et de hachage (MD5, SHA) pour garantir la confidentialité et l'intégrité des données.</p>
+      </article>
+
+      <article class="card reveal" style="padding: 25px 20px; border-radius: 16px; border-bottom: 4px solid #a855f7; background: rgba(168, 85, 247, 0.05); box-shadow: 0 4px 15px rgba(168, 85, 247, 0.1);">
+        <div style="font-size: 2.5rem; margin-bottom: 15px;">🐘</div>
+        <h4 style="color: #fff; font-size: 1.2rem; margin-bottom: 10px;">PHP</h4>
+        <p style="font-size: 0.9rem; color: #aaa; line-height: 1.5;">Traitement sécurisé côté serveur (sessions, prévention des injections SQL). Création d'API, de systèmes d'authentification et de formulaires dynamiques.</p>
+      </article>
+
+      <article class="card reveal" style="padding: 25px 20px; border-radius: 16px; border-bottom: 4px solid #eab308; background: rgba(234, 179, 8, 0.05); box-shadow: 0 4px 15px rgba(234, 179, 8, 0.1);">
+        <div style="font-size: 2.5rem; margin-bottom: 15px;">🐍</div>
+        <h4 style="color: #fff; font-size: 1.2rem; margin-bottom: 10px;">Python</h4>
+        <p style="font-size: 0.9rem; color: #aaa; line-height: 1.5;">Automatisation de calculs mathématiques et développement de scripts d'extraction pour traiter massivement des données issues de grandes bases de données.</p>
+      </article>
+
+      <article class="card reveal" style="padding: 25px 20px; border-radius: 16px; border-bottom: 4px solid #f97316; background: rgba(249, 115, 22, 0.05); box-shadow: 0 4px 15px rgba(249, 115, 22, 0.1);">
+        <div style="font-size: 2.5rem; margin-bottom: 15px;">📱</div>
+        <h4 style="color: #fff; font-size: 1.2rem; margin-bottom: 10px;">Java / Android</h4>
+        <p style="font-size: 0.9rem; color: #aaa; line-height: 1.5;">Développement d'une application mobile Android connectée à une base de données, permettant de répertorier et d'afficher les vulnérabilités identifiées par un scanner web.</p>
+      </article>
+
+      <article class="card reveal" style="padding: 25px 20px; border-radius: 16px; border-bottom: 4px solid #3b82f6; background: rgba(59, 130, 246, 0.05); box-shadow: 0 4px 15px rgba(59, 130, 246, 0.1);">
+        <div style="font-size: 2.5rem; margin-bottom: 15px;">🗄️</div>
+        <h4 style="color: #fff; font-size: 1.2rem; margin-bottom: 10px;">MySQL</h4>
+        <p style="font-size: 0.9rem; color: #aaa; line-height: 1.5;">Modélisation et manipulation de bases de données relationnelles. Compréhension des flux synchrones/asynchrones et de l'importance d'une structure de données optimisée.</p>
+      </article>
+
+      <article class="card reveal" style="padding: 25px 20px; border-radius: 16px; border-bottom: 4px solid #e11d48; background: rgba(225, 29, 72, 0.05); box-shadow: 0 4px 15px rgba(225, 29, 72, 0.1);">
+        <div style="font-size: 2.5rem; margin-bottom: 15px;">🍓</div>
+        <h4 style="color: #fff; font-size: 1.2rem; margin-bottom: 10px;">Raspberry Pi</h4>
+        <p style="font-size: 0.9rem; color: #aaa; line-height: 1.5;">Déploiement de systèmes autonomes (SAE). Configuration de serveurs DNS (blocage de publicités réseau type Pi-hole) et intégration matérielle complète.</p>
+      </article>
+
+      <article class="card reveal" style="padding: 25px 20px; border-radius: 16px; border-bottom: 4px solid #ef4444; background: rgba(239, 68, 68, 0.05); box-shadow: 0 4px 15px rgba(239, 68, 68, 0.1);">
+        <div style="font-size: 2.5rem; margin-bottom: 15px;">🎨</div>
+        <h4 style="color: #fff; font-size: 1.2rem; margin-bottom: 10px;">HTML / CSS</h4>
+        <p style="font-size: 0.9rem; color: #aaa; line-height: 1.5;">Création de sites web personnels et réalisation de projets académiques. Conception d'interfaces et intégration web (projets disponibles sur mon GitHub).</p>
+      </article>
+
+      <article class="card reveal" style="padding: 25px 20px; border-radius: 16px; border-bottom: 4px solid #64748b; background: rgba(100, 116, 139, 0.05); box-shadow: 0 4px 15px rgba(100, 116, 139, 0.1);">
+        <div style="font-size: 2.5rem; margin-bottom: 15px;">⚙️</div>
+        <h4 style="color: #fff; font-size: 1.2rem; margin-bottom: 10px;">C / C++</h4>
+        <p style="font-size: 0.9rem; color: #aaa; line-height: 1.5;">Initiation aux bases de l'algorithmique. Compréhension de la logique pure du code et de la manière dont un logiciel interagit directement avec le matériel.</p>
+      </article>
+
+      <article class="card reveal" style="padding: 25px 20px; border-radius: 16px; border-bottom: 4px solid #0d9488; background: rgba(13, 148, 136, 0.05); box-shadow: 0 4px 15px rgba(13, 148, 136, 0.1);">
+        <div style="font-size: 2.5rem; margin-bottom: 15px;">🤖</div>
+        <h4 style="color: #fff; font-size: 1.2rem; margin-bottom: 10px;">Arduino IoT</h4>
+        <p style="font-size: 0.9rem; color: #aaa; line-height: 1.5;">Manipulation de microcontrôleurs Arduino. Apprentissage de l'électronique de base et mise en place de protocoles de communication entre plusieurs cartes.</p>
+      </article>
+
+      <article class="card reveal" style="padding: 25px 20px; border-radius: 16px; border-bottom: 4px solid #facc15; background: rgba(250, 204, 21, 0.05); box-shadow: 0 4px 15px rgba(250, 204, 21, 0.1);">
+        <div style="font-size: 2.5rem; margin-bottom: 15px;">🐧</div>
+        <h4 style="color: #fff; font-size: 1.2rem; margin-bottom: 10px;">Linux / Bash</h4>
+        <p style="font-size: 0.9rem; color: #aaa; line-height: 1.5;">Découverte et pratique de la ligne de commande : navigation avancée dans les répertoires, administration système, gestion des fichiers et des droits d'accès.</p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+
+  <section id="softskill" class="section bg-soft">
+
+    <div class="container">
+      <h2>Soft-skill</h2>
+      <div class="soft-skills-wrapper" style="margin-top: 40px;">
+  
+
+
+
+<div class="skills-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-bottom: 40px; text-align: center;">
+
+  <article class="card reveal" style="padding: 25px 15px; border-radius: 16px; border-bottom: 4px solid #3b82f6; background: rgba(59, 130, 246, 0.05); box-shadow: 0 4px 15px rgba(59, 130, 246, 0.1);">
+    <div style="font-size: 3rem; margin-bottom: 10px;">🔄</div>
+    <div style="font-size: 1.1rem; font-weight: bold; color: #fff;">Adaptabilité</div>
+  </article>
+
+  <article class="card reveal" style="padding: 25px 15px; border-radius: 16px; border-bottom: 4px solid #f97316; background: rgba(249, 115, 22, 0.05); box-shadow: 0 4px 15px rgba(249, 115, 22, 0.1);">
+    <div style="font-size: 3rem; margin-bottom: 10px;">💬</div>
+    <div style="font-size: 1.1rem; font-weight: bold; color: #fff;">Relation client</div>
+  </article>
+
+  <article class="card reveal" style="padding: 25px 15px; border-radius: 16px; border-bottom: 4px solid #eab308; background: rgba(234, 179, 8, 0.05); box-shadow: 0 4px 15px rgba(234, 179, 8, 0.1);">
+    <div style="font-size: 3rem; margin-bottom: 10px;">💡</div>
+    <div style="font-size: 1.1rem; font-weight: bold; color: #fff;">Sens du service</div>
+  </article>
+
+  <article class="card reveal" style="padding: 25px 15px; border-radius: 16px; border-bottom: 4px solid #a855f7; background: rgba(168, 85, 247, 0.05); box-shadow: 0 4px 15px rgba(168, 85, 247, 0.1);">
+    <div style="font-size: 3rem; margin-bottom: 10px;">🧩</div>
+    <div style="font-size: 1.1rem; font-weight: bold; color: #fff;">Résolution de problèmes</div>
+  </article>
+
+  <article class="card reveal" style="padding: 25px 15px; border-radius: 16px; border-bottom: 4px solid #06b6d4; background: rgba(6, 182, 212, 0.05); box-shadow: 0 4px 15px rgba(6, 182, 212, 0.1);">
+    <div style="font-size: 3rem; margin-bottom: 10px;">🔭</div>
+    <div style="font-size: 1.1rem; font-weight: bold; color: #fff;">Curiosité</div>
+  </article>
+
+  <article class="card reveal" style="padding: 25px 15px; border-radius: 16px; border-bottom: 4px solid #22c55e; background: rgba(34, 197, 94, 0.05); box-shadow: 0 4px 15px rgba(34, 197, 94, 0.1);">
+    <div style="font-size: 3rem; margin-bottom: 10px;">🤝</div>
+    <div style="font-size: 1.1rem; font-weight: bold; color: #fff;">Travail en équipe</div>
+  </article>
+
+  <article class="card reveal" style="padding: 25px 15px; border-radius: 16px; border-bottom: 4px solid #ef4444; background: rgba(239, 68, 68, 0.05); box-shadow: 0 4px 15px rgba(239, 68, 68, 0.1);">
+    <div style="font-size: 3rem; margin-bottom: 10px;">🛡️</div>
+    <div style="font-size: 1.1rem; font-weight: bold; color: #fff;">Autonomie & Fiabilité</div>
+  </article>
+
+  <article class="card reveal" style="padding: 25px 15px; border-radius: 16px; border-bottom: 4px solid #6366f1; background: rgba(99, 102, 241, 0.05); box-shadow: 0 4px 15px rgba(99, 102, 241, 0.1);">
+    <div style="font-size: 3rem; margin-bottom: 10px;">🌍</div>
+    <div style="font-size: 1.1rem; font-weight: bold; color: #fff;">Anglais Technique</div>
+  </article>
+
+</div>
+    </section>
+
+ <section id="projets" class="section">
+    <div class="container">
+      <h2 style="text-align: center; margin-bottom: 50px;">Mes Projets & Réalisations</h2>
+
+      <h3 style="color: var(--green); border-bottom: 2px solid rgba(34, 197, 94, 0.2); padding-bottom: 10px; margin-bottom: 30px;">🛡️ Cybersécurité</h3>
+      <div class="cards projects neutral" style="margin-bottom: 60px;">
+        
+        <article class="card project open-modal" data-modal="modal11">
+          <div class="card-content">
+            <h3>Audit Sécurité : Pentest Black Box</h3>
+            <p class="muted">Test d'intrusion : Cyber Kill Chain, Pivoting, Metasploit et PrivEsc.</p>
+          </div>
+          <button class="btn small full-width">Détails</button>
+        </article>
+
+        <article class="card project open-modal" data-modal="modal12">
+          <div class="card-content">
+            <h3>Automatisation AD & PowerShell</h3>
+            <p class="muted">Déploiement d'un domaine Windows Server et automatisation de la gestion des utilisateurs.</p>
+          </div>
+          <button class="btn small full-width">Détails</button>
+        </article>
+
+
+        <article class="card project open-modal" data-modal="modal1">
+          <div class="card-content">
+            <h3>Hygiène Informatique & Cybersécurité</h3>
+            <p class="muted">Analyse de 10 cyberattaques majeures et vulgarisation (OSINT).</p>
+          </div>
+          <button class="btn small full-width">Détails</button>
+        </article>
+
+        <article class="card project open-modal" data-modal="modal6">
+          <div class="card-content">
+            <h3>Application Mobile : Audit & Scan IP</h3>
+            <p class="muted">Développement Android (Java) d'un outil de cybersécurité connecté à une BDD.</p>
+          </div>
+          <button class="btn small full-width">Détails</button>
+        </article>
+
+        <article class="card project open-modal" data-modal="modal2">
+          <div class="card-content">
+            <h3>E-Réputation & Droits Numériques</h3>
+            <p class="muted">Prévention et création d'outils pédagogiques pour la protection des données (RGPD).</p>
+          </div>
+          <button class="btn small full-width">Détails</button>
+        </article>
+
+      </div>
+
+      <h3 style="color: var(--green); border-bottom: 2px solid rgba(34, 197, 94, 0.2); padding-bottom: 10px; margin-bottom: 30px;">🌐 Réseaux & Infrastructures</h3>
+      <div class="cards projects neutral" style="margin-bottom: 60px;">
+
+        <article class="card project open-modal" data-modal="modal13">
+          <div class="card-content">
+            <h3>Diagnostic du Réseau Domestique</h3>
+            <p class="muted">Analyse pratique de ma box internet, capture de trafic (Wireshark) et étude du routage.</p>
+          </div>
+          <button class="btn small full-width">Détails</button>
+        </article>
+        
+        <article class="card project open-modal" data-modal="modal3">
+          <div class="card-content">
+            <h3>Architecture Réseau PME & Sécurité</h3>
+            <p class="muted">Conception complète : Segmentation VLANs, Pare-feu Cisco ASA, et DMZ.</p>
+          </div>
+          <button class="btn small full-width">Détails</button>
+        </article>
+
+        <article class="card project open-modal" data-modal="modal7">
+          <div class="card-content">
+            <h3>Architecture Multisite : ASA, VPN & ToIP</h3>
+            <p class="muted">Interconnexion sécurisée via VPN (GRE/IPSec) et Téléphonie sur IP.</p>
+          </div>
+          <button class="btn small full-width">Détails</button>
+        </article>
+
+        <article class="card project open-modal" data-modal="modal10">
+          <div class="card-content">
+            <h3>Architecture Réseau Domestique</h3>
+            <p class="muted">Segmentation Wi-Fi, isolation des invités et blocage DNS avec Pi-hole.</p>
+          </div>
+          <button class="btn small full-width">Détails</button>
+        </article>
+
+      </div>
+
+      <h3 style="color: var(--green); border-bottom: 2px solid rgba(34, 197, 94, 0.2); padding-bottom: 10px; margin-bottom: 30px;">📡 Télécoms & IoT</h3>
+      <div class="cards projects neutral" style="margin-bottom: 60px;">
+        
+        <article class="card project open-modal" data-modal="modal5">
+          <div class="card-content">
+            <h3>Télédiffusion RF & CodecPlayer (GStreamer)</h3>
+            <p class="muted">Analyse de signaux (DVB-T/S) et développement Python d'un lecteur multimédia interactif.</p>
+          </div>
+          <button class="btn small full-width">Détails</button>
+        </article>
+
+        <article class="card project open-modal" data-modal="modal4">
+          <div class="card-content">
+            <h3>Ingénierie IoT & Dimensionnement LoRaWAN</h3>
+            <p class="muted">Étude radio, bilan énergétique et validation expérimentale (Python/Jupyter).</p>
+          </div>
+          <button class="btn small full-width">Détails</button>
+        </article>
+
+        <article class="card project open-modal" data-modal="modal9">
+          <div class="card-content">
+            <h3>Projet PHOTO_ATB : Partenariat Thales</h3>
+            <p class="muted">Conception d'un système de surveillance IoT autonome (Raspberry) pour banc avionique.</p>
+          </div>
+          <button class="btn small full-width">Détails</button>
+        </article>
+
+      </div>
+
+      <h3 style="color: var(--green); border-bottom: 2px solid rgba(34, 197, 94, 0.2); padding-bottom: 10px; margin-bottom: 30px;">💻 Développement Web</h3>
+      <div class="cards projects neutral">
+        
+        <article class="card project open-modal" data-modal="modal8">
+          <div class="card-content">
+            <h3>Identité Numérique & Portfolio</h3>
+            <p class="muted">Développement web "Hand-coded" (HTML/CSS/JS) et Personal Branding professionnel.</p>
+          </div>
+          <button class="btn small full-width">Détails</button>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact" class="section bg-soft">
+    <div class="container" style="text-align: center;">
+      <h2>Contact & Réseaux</h2>
+      <p class="muted">Un projet ? Une offre de stage ? Discutons-en directement !</p>
+      
+      <div class="contact-cards-container">
+        
+        <a href="mailto:nico.no@outlook.fr" class="contact-card-link">
+          <div class="contact-card">
+            <div class="contact-icon">📧</div>
+            <h3>Email</h3>
+            <p class="muted">nicolas.nonnenmacher@etu.univ-cotedazur.fr</p>
+          </div>
+        </a>
+
+
+        <a href="https://github.com/NICO-NMCHR/PORTFOLIO.git" target="_blank" class="contact-card-link">
+          <div class="contact-card">
+            <div class="contact-icon">💻</div>
+            <h3>GitHub</h3>
+            <p class="muted">Mes codes et projets</p>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span id="year"></span> Nicolas Nonnenmacher — Portfolio.</p>
+  </div>
+</footer>
+
+<div id="modal1" class="modal">
+  <div class="modal-dialog">
+    <button class="close" aria-label="Fermer">×</button>
+    <h3>Hygiène Informatique & Cybersécurité</h3>
+    
+    <div class="project-details">
+      <div class="detail-item">
+        <h4>🎯 Objectif & Méthodologie</h4>
+        <p>
+          Nous avons recensé et analysé <strong>10 cyberattaques majeures</strong> pour comprendre le processus (Kill Chain) mis en place par les attaquants pour corrompre les systèmes. 
+          <br>
+          Ce travail s'est appuyé sur une recherche approfondie en sources ouvertes (OSINT) et documentaires pour décortiquer chaque vecteur d'attaque.
+        </p>
+      </div>
+
+      <div class="detail-item">
+        <h4>🛡️ Les 10 attaques analysées :</h4>
+        <ul style="list-style: disc; padding-left: 20px; color: var(--muted); font-size: 0.95rem; line-height: 1.6;">
+          <li><strong>SIM Swapping :</strong> Usurpation de numéro de téléphone en manipulant l'opérateur mobile pour intercepter les codes de double authentification (2FA).</li>
+          <li><strong>Carding :</strong> Trafic et utilisation illégale de données bancaires volées pour effectuer des achats frauduleux ou de la revente.</li>
+          <li><strong>Phishing (Hameçonnage) :</strong> Envoi de courriels imitant un tiers de confiance (banque, impôts) pour inciter la victime à livrer ses identifiants.</li>
+          <li><strong>Ransomware (Rançongiciel) :</strong> Logiciel malveillant qui chiffre les données de l'utilisateur et exige une rançon pour fournir la clé de déchiffrement.</li>
+          <li><strong>DDoS (Déni de Service) :</strong> Saturation d'un serveur par une multitude de requêtes simultanées (via botnet) pour rendre le service indisponible.</li>
+          <li><strong>Man-in-the-Middle (MitM) :</strong> Interception secrète des communications entre deux parties, souvent via un réseau Wi-Fi public non sécurisé.</li>
+          <li><strong>Injection SQL :</strong> Insertion de commandes malveillantes dans un formulaire web pour manipuler ou exfiltrer le contenu d'une base de données.</li>
+          <li><strong>Ingénierie Sociale :</strong> Manipulation psychologique visant à abuser de la confiance d'une personne pour lui soutirer des informations confidentielles.</li>
+          <li><strong>Brute Force :</strong> Tentative automatique de deviner un mot de passe en essayant toutes les combinaisons possibles jusqu'à trouver la bonne.</li>
+          <li><strong>Supply Chain Attack :</strong> Compromission d'un fournisseur ou d'un logiciel tiers (ex: une mise à jour) pour infecter la cible finale en cascade.</li>
+        </ul>
+      </div>
+
+      <div class="detail-item">
+        <h4>🧠 Compétence développée</h4>
+        <p>Veille technologique, analyse de risques, compréhension des vecteurs d'attaque et vulgarisation.</p>
+      </div>
+      
+      
+    </div>
+  </div>
+</div>
+
+<div id="modal2" class="modal">
+  <div class="modal-dialog">
+    <button class="close" aria-label="Fermer"></button>
+    <h3>E-Réputation & Droits Numériques</h3>
+    
+    <div class="project-details">
+      <div class="detail-item">
+        <h4>🎯 Objectif : Prévention Ados (13-14 ans)</h4>
+        <p>
+          Concevoir une intervention ludique pour des collégiens afin de les alerter sur l'impact immédiat et futur de leurs traces numériques. L'objectif est de provoquer une prise de conscience sur ce qui est publié (photos, commentaires) et les répercussions possibles (harcèlement, refus d'embauche futur).
+        </p>
+      </div>
+
+      <div class="detail-item">
+        <h4>⚙️ Réalisation : Le Jeu Pédagogique</h4>
+        <p>J'ai pensé à un jeu de carte avec des images qui mettent les élèves en situation :</p>
+        <ul style="list-style: disc; padding-left: 20px; color: var(--muted); font-size: 0.95rem; margin-top: 8px;">
+          <li><strong>Scénario "La Photo" :</strong> À travers cet exemple, j'ai choisi d'aborder le thème du partage de photos,
+          une pratique rendue extrêmement facile par les applications qu'utilisent les collégiens au quotidien. J'ai échangé avec eux sur 
+          la notion de droit à l'image et sur ce qu'il est permis, ou non, de publier sur les réseaux sociaux. L'objectif était de les sensibiliser
+          à l'importance de contrôler leur empreinte numérique et les informations qui circulent à leur sujet. </br>
+          Enfin, j'ai tenu à faire passer un message préventif essentiel : chaque publication peut avoir des répercussions durables sur
+          leur vie sociale et future.</li><br> Nous avons ainsi pu aborder des risques concrets tels que le cyberharcèlement, la manipulation par des 
+          prédateurs ciblant les personnes vulnérables, la revente de données personnelles, ou encore le chantage (sextorsion) lié à des photos privées.</li>
+          <li><strong>Module RGPD (Expliqué aux jeunes) :</strong> Vulgarisation du <em>Règlement Général sur la Protection des Données</em>.
+            <br><span style="color:var(--green); font-size:0.9rem;">➤ Ce que nous leur apprenons :</span> La RGPD est la loi européenne qui protège leur vie privée. Elle interdit aux entreprises d'utiliser leurs données (photos, nom, localisation) sans accord et leur donne le <strong>"Droit à l'oubli"</strong> (le droit de demander l'effacement définitif d'une information).
+          </li>
+        </ul>
+      </div>
+
+      <div class="detail-item">
+        <h4>🧠 Compétence</h4>
+        <p>Pédagogie, Droit du numérique (RGPD/Droit à l'image), Communication orale adaptée à un public jeune.</p>
+      </div>
+
+      <div class="detail-item">
+        <h4>📂 Visuels : Exemple de cartes pédagogiques</h4>
+        <p><em>Exemple de situation (recto) et de solution (verso) conçues pour les collégiens :</em></p>
+        
+        <div style="display: flex; gap: 15px; justify-content: center; margin-top: 15px;">
+          <img src="assets/8.png" alt="Carte Situation" class="clickable-image" style="width: 45%; max-width: 200px; border-radius: 8px; cursor: zoom-in; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
+          <img src="assets/9.png" alt="Carte Solution" class="clickable-image" style="width: 45%; max-width: 200px; border-radius: 8px; cursor: zoom-in; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
+        </div>
+        <p class="muted" style="text-align: center; font-size: 0.85rem; margin-top: 10px;">(Cliquez sur les images pour les agrandir)</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="modal3" class="modal">
+  <div class="modal-dialog">
+    <button class="close" aria-label="Fermer">×</button>
+    <h3>Architecture Réseau PME & Sécurité ASA</h3>
+    
+    <div class="project-details">
+      <div class="detail-item">
+        <h4>🎯 Objectif : Architecture Sécurisée</h4>
+        <p>
+          Concevoir et déployer une infrastructure réseau complète pour une PME simulée. L'enjeu était de segmenter les flux pour garantir que les services publics (Web) soient accessibles sans compromettre le réseau interne (LAN) des employés.
+        </p>
+      </div>
+
+      <div class="detail-item">
+        <h4>⚙️ Réalisation Technique</h4>
+        <ul style="list-style: disc; padding-left: 20px; color: var(--muted); font-size: 0.95rem; margin-top: 8px; line-height: 1.6;">
+          <div class="detail-item">
+
+            <h4>⚙️ Réalisation Technique</h4>
+
+              <p style="color: var(--muted); font-size: 0.95rem; line-height: 1.6; margin-top: 8px; margin-bottom: 12px;">
+               Dans le cadre de ce projet de groupe, nous avons conçu l'architecture réseau complète d'une PME en appliquant les bonnes pratiques de segmentation et de sécurité. Notre stratégie a reposé sur l'utilisation de trois plages d'adresses IP distinctes pour isoler les flux :
+              </p>
+
+            <ul style="list-style: disc; padding-left: 20px; color: var(--muted); font-size: 0.95rem; line-height: 1.6; margin-bottom: 15px;">
+              <li><strong>Réseaux Utilisateurs (192.168.0.0) :</strong> Découpage de cette plage en plusieurs sous-réseaux (Subnetting) afin de séparer logiquement le service Administration du reste des Collaborateurs, limitant ainsi les domaines de diffusion.</li>
+              <li><strong>Réseau de Gestion (172.16.0.0) :</strong> Pour des raisons de sécurité stricte, l'administration et la maintenance des équipements ont été totalement isolées sur ce réseau dédié.</li>
+              <li><strong>Réseau Téléphonie (10.10.0.0) :</strong> La voix sur IP (VoIP) nécessitant une excellente qualité sans latence, nous lui avons dédié ce réseau indépendant pour éviter toute congestion.</li>
+            </ul>
+
+            <p style="color: var(--muted); font-size: 0.95rem; line-height: 1.6; margin-bottom: 15px;">
+              Afin de protéger l'entreprise, nous avons également intégré une <strong>zone DMZ</strong>. Ce sas de sécurité nous a permis d'héberger les services ouverts sur l'extérieur (comme le serveur Web) tout en bloquant l'accès direct depuis Internet vers le réseau local de nos collaborateurs.
+            </p>
+
+            <ul style="list-style: disc; padding-left: 20px; color: var(--muted); font-size: 0.95rem; line-height: 1.6; margin-bottom: 15px;">
+              <li><strong>Filtrage par ACL (Access Control Lists) :</strong> Application stricte du principe de moindre privilège :
+                <br>- <em>Internet vers DMZ :</em> Autorisé uniquement sur le port 80 (HTTP).
+                <br>- <em>DMZ vers Inside :</em> <strong>Bloqué strictement</strong>.
+                <br>- <em>Inside vers Internet :</em> Autorisé.
+              </li>
+              <li><strong>Services DHCP par VLAN :</strong> Configuration de pools DHCP distincts pour attribuer dynamiquement les adresses IP, passerelles et DNS spécifiques à chaque VLAN.</li>
+            </ul>
+
+            <div style="background-color: #1a1f1c; border-left: 3px solid var(--green); padding: 12px; border-radius: 4px; margin-top: 15px;">
+              <p style="color: var(--muted); font-size: 0.95rem; line-height: 1.6; margin: 0;">
+                <strong style="color: white;">Mon intervention technique :</strong> Au cours de ce projet, j'ai notamment été en charge de la validation des règles de routage et de sécurité. En me connectant à distance via le VPN de l'école, j'ai pu réaliser les tests de connectivité (pings) depuis notre réseau interne vers l'extérieur, validant ainsi la bonne configuration de nos équipements de sécurité (Pare-feu / NAT).
+              </p>
+            </div>
+
+          </div>
+          
+          
+
+
+          <li><strong>Filtrage par ACL (Access Control Lists) :</strong> Application stricte du principe de moindre privilège :
+            <br>- <em>Internet vers DMZ :</em> Autorisé uniquement sur le port 80 (HTTP).
+            <br>- <em>DMZ vers Inside :</em> <strong>Bloqué strictement</strong>.
+            <br>- <em>Inside vers Internet :</em> Autorisé.
+          </li>
+
+          <li><strong>Services DHCP par VLAN :</strong> Configuration de pools DHCP distincts pour attribuer dynamiquement les adresses IP, passerelles et DNS spécifiques à chaque VLAN.</li>
+        </ul>
+      </div>
+
+      <div class="detail-item">
+        <h4>🧠 Compétence</h4>
+        <p>Administration Cisco (IOS/ASA), Routage & Commutation, Sécurité périmétrique, Gestion des listes de contrôle d'accès (ACL).</p>
+      </div>
+
+      <div class="detail-item">
+        <h4>📂 Preuve</h4>
+        <p><em>Fichier de topologie Packet Tracer (.pkt) et extraits de configuration (Show Run).</em></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="modal4" class="modal">
+  <div class="modal-dialog">
+    <button class="close" aria-label="Fermer">×</button>
+    <h3>Ingénierie IoT & Dimensionnement LoRaWAN</h3>
+    
+    <div class="project-details">
+      <div class="detail-item">
+        <h4>🎯 Objectif : Conception d'un système autonome</h4>
+        <p>
+          Dans le cadre de la SAE 22, l'objectif était de concevoir l'architecture technique complète d'un objet connecté (capteur de télésurveillance). 
+          Le défi : trouver l'équilibre optimal entre <strong>portée radio</strong>, <strong>vitesse de transmission</strong> et <strong>autonomie énergétique</strong>[cite: 72, 90, 100].
+        </p>
+      </div>
+
+      <div class="detail-item">
+        <h4>📡 1. Étude Radio & Compromis</h4>
+        <p>Dimensionnement de la liaison LoRa pour valider la couverture théorique :</p>
+        <ul style="list-style: disc; padding-left: 20px; color: var(--muted); font-size: 0.95rem; margin-top: 8px;">
+          <li><strong>Optimisation des paramètres LoRa :</strong> Analyse comparative de l'impact du <em>Spreading Factor</em> (SF7 à SF12) et de la <em>Bande Passante</em> (125kHz vs 500kHz) sur la sensibilité du récepteur.</li>
+          <li><strong>Stratégie de transmission :</strong> Sélection d'un SF élevé (SF12) pour maximiser la portée (sensibilité > -137 dBm) ou d'un SF faible pour privilégier le débit, selon le cahier des charges client.</li>
+          <li><strong>Calcul de Payload :</strong> Estimation précise de la taille des trames (Préambule + Synchro + Données utiles + CRC) pour calibrer le débit nécessaire.</li>
+        </ul>
+      </div>
+
+      <div class="detail-item">
+        <h4>⚡ 2. Bilan Énergétique & Autonomie</h4>
+        [cite_start]<p>Calcul critique pour garantir la durée de vie du capteur sur batterie (AA Lithium 2.6Ah):</p>
+        <ul style="list-style: disc; padding-left: 20px; color: var(--muted); font-size: 0.95rem; margin-top: 8px;">
+          <li><strong>Profil de consommation :</strong> Analyse fine du cycle de vie d'une trame : Réveil ➔ Émission (82mA) ➔ Réception (17mA) ➔ Veille (45µA).</li>
+          <li><strong>Calcul d'autonomie :</strong> Estimation de la durée de vie totale du dispositif (en années) en fonction de la fréquence d'envoi et de la consommation en W.h.</li>
+          <li><strong>Étude Solaire :</strong> Évaluation de la viabilité d'un panneau solaire basée sur le rendement surfacique Watt/cm².</li>
+        </ul>
+      </div>
+
+      <div class="detail-item">
+        <h4>📊 3. Validation Expérimentale (Jupyter)</h4>
+        <p>
+            Confrontation des calculs théoriques avec la réalité terrain via une campagne de mesures. Traitement des données (RSSI, SNR, Pertes) via des scripts <strong>Python / Jupyter Notebook</strong> pour caractériser l'atténuation réelle du signal.
+        </p>
+      </div>
+
+      <div class="detail-item">
+        <h4>🧠 Compétence</h4>
+        <p>Dimensionnement Réseau, Physique des ondes, Gestion de l'énergie, Analyse de données.</p>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+<div id="modal5" class="modal">
+  <div class="modal-dialog">
+    <button class="close" aria-label="Fermer">×</button>
+    <h3>Ingénierie Télécoms & Développement Multimédia</h3>
+    
+    <div class="project-details">
+      <div class="detail-item">
+        <h4>🎯 Objectif : Du signal physique à l'interface logicielle</h4>
+        <p>
+          Ce projet hybride s'articule autour de deux axes complémentaires : l'étude physique des signaux radiofréquences de télédiffusion sur le terrain, et le développement d'une solution logicielle de traitement de flux multimédia de bout en bout.
+        </p>
+      </div>
+
+      <div class="detail-item">
+        <h4>⚙️ Réalisation Technique</h4>
+        <ul style="list-style: disc; padding-left: 20px; color: var(--muted); font-size: 0.95rem; margin-top: 8px; line-height: 1.6;">
+          
+          <li><strong>Phase 1 : Analyse RF & Télédiffusion (TNT / DVB-S)</strong>
+            <br>Campagne de mesures sur le terrain à l'aide d'un mesureur de champ (Televes H30FLEX).
+            <br><span style="color:var(--green); font-size:0.9rem;">➤ Actions :</span> Analyse spectrale des bandes UHF, évaluation de la robustesse du signal via l'étude des métriques clés (SNR, MER, VBER), et interprétation de l'impact du bruit sur un diagramme de constellation 64-QAM.
+          </li>
+          
+          <li><strong>Phase 2 : Développement du "CodecPlayer" (Python)</strong>
+            <br>Conception d'un lecteur audio interactif développé via l'environnement Jupyter (ipywidgets).
+            <br><span style="color:var(--green); font-size:0.9rem;">➤ Moteur :</span> Utilisation du puissant framework <strong>GStreamer</strong> pour le décodage fluide des flux haute qualité (WAV, FLAC, MP3) et de la librairie <strong>Mutagen</strong> pour l'extraction dynamique des tags ID3 (pochettes d'album en temps réel).
+          </li>
+
+          <li><strong>Phase 3 : Interface & UI/UX</strong>
+            <br>Création d'une interface visuelle soignée intégrant un égaliseur graphique, un spectrogramme généré en temps réel, et un gestionnaire automatisé de playlists.
+          </li>
+
+        </ul>
+      </div>
+
+      <div class="detail-item">
+        <h4>🧠 Compétences Démontrées</h4>
+        <p>Maîtrise de la couche physique (Multiplexage OFDM, Modulation QAM), Interprétation de métriques télécoms (SNR/BER), Programmation Python (Jupyter), Traitement de flux (GStreamer), Design UI/UX.</p>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+<div id="modal6" class="modal">
+  <div class="modal-dialog">
+    <button class="close" aria-label="Fermer">×</button>
+    <h3>Application Mobile : Audit & Scan IP</h3>
+    
+    <div class="project-details">
+      <div class="detail-item">
+        <h4>🎯 Objectif : La Sécurité dans la poche</h4>
+        <p>
+          Développer une <strong>application Android</strong> complète permettant aux administrateurs réseaux de tester la sécurité d'une machine à distance. L'objectif est de scanner une adresse IP donnée pour identifier ses failles potentielles et consulter le rapport directement sur mobile.
+        </p>
+      </div>
+
+      <div class="detail-item">
+        <h4>⚙️ Architecture Client-Serveur</h4>
+        <ul style="list-style: disc; padding-left: 20px; color: var(--muted); font-size: 0.95rem; margin-top: 8px; line-height: 1.6;">
+          <li><strong>Interface Mobile (Frontend) :</strong> Développement de l'application en <strong>Java</strong> sous Android Studio. Création de formulaires pour saisir l'adresse IP cible et d'interfaces pour afficher les résultats.</li>
+          
+          <li><strong>Moteur de Scan (Backend) :</strong> Le scan est effectué par une plateforme web qui utilise des outils d'audit réseau (type Nmap) pour tester les ports et services de l'IP cible.</li>
+
+          <li><strong>Base de Données Centralisée :</strong> L'application est connectée en temps réel à la base de données du site web.
+            <br><span style="color:var(--green); font-size:0.9rem;">➤ Fonctionnement :</span> Si des failles sont trouvées, l'app récupère la liste et les détails depuis la BDD. Si l'audit est vierge, elle notifie l'utilisateur que le système est sécurisé.
+          </li>
+        </ul>
+      </div>
+
+      <div class="detail-item">
+        <h4>🧠 Compétence</h4>
+        <p>Développement Mobile (Android SDK / Java), Communication Client-Serveur (API/Requêtes HTTP), Gestion de Base de Données (SQL), Analyse de vulnérabilités.</p>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+<div id="modal7" class="modal">
+  <div class="modal-dialog">
+    <button class="close" aria-label="Fermer">×</button>
+    <h3>Architecture Réseau PME : Simulation Packet Tracer</h3>
+    
+    <div class="project-details">
+
+      <div class="detail-item">
+        <h4>🎯 Objectif : Bâtir un réseau d'entreprise de A à Z</h4>
+        <p>
+          Dans ce projet, j'ai simulé une mission d'ingénierie réseau. L'idée était de concevoir, de configurer et de sécuriser entièrement l'infrastructure informatique d'une petite entreprise en utilisant le logiciel Cisco Packet Tracer.
+        </p>
+      </div>
+
+      <div class="detail-item">
+        <h4>⚙️ Ma configuration technique</h4>
+        <ul style="list-style: disc; padding-left: 20px; color: var(--muted); font-size: 0.95rem; margin-top: 8px; line-height: 1.6;">
+          <li><strong>Découpage du réseau :</strong> J'ai séparé les différents services (comme les RH, les serveurs et les utilisateurs) en plusieurs groupes (VLANs) pour que le réseau soit plus ordonné et sécurisé. J'ai ensuite configuré le routage pour qu'ils puissent communiquer entre eux intelligemment.</li>
+          <li><strong>Services automatiques :</strong> J'ai mis en place un serveur central qui distribue automatiquement les adresses IP à toutes les machines (DHCP) et un autre pour gérer les noms de domaine internes (DNS).</li>
+          <li><strong>Le Pare-feu (Firewall ASA) :</strong> J'ai installé un pare-feu Cisco pour cloisonner le réseau en trois zones de confiance (l'Intérieur, l'Extérieur, et une zone tampon DMZ pour le serveur web). J'ai défini des règles d'accès strictes pour bloquer les intrus et configuré le NAT pour que toutes les machines puissent accéder à Internet avec une seule adresse publique.</li>
+          <li><strong>Interconnexion :</strong> J'ai configuré le routage dynamique pour relier toute cette infrastructure au réseau du fournisseur d'accès internet simulé.</li>
+        </ul>
+      </div>
+
+      <div class="detail-item">
+        <h4>🧠 Compétences</h4>
+        <p>Administration réseaux Cisco, Configuration Pare-feu (ASA), Segmentation VLANs, Routage dynamique, Services (DHCP, DNS), Simulation Cisco Packet Tracer.</p>
+      </div>
+
+      <div class="detail-item">
+        <h4>📂 Preuve : Schéma du réseau</h4>
+        <p><em>Voici la topologie complète que j'ai conçue et configurée dans Packet Tracer :</em></p>
+        
+        <img src="assets/topo.jpg" alt="photo topo" class="modal-image" style="max-width: 100%; height: auto; display: block; margin: 20px auto 0; border: 1px solid var(--muted); border-radius: 5px;">
+        
+      </div>
+    </div> </div> </div>
+<div id="modal8" class="modal">
+  <div class="modal-dialog">
+    <button class="close" aria-label="Fermer">×</button>
+    <h3>Identité Numérique & Développement Web</h3>
+    
+    <div class="project-details">
+      <div class="detail-item">
+        <h4>🎯 Objectif : Au-delà du CV papier</h4>
+        <p>
+          Réalisé dans le cadre de la SAE 2.05, ce projet vise à construire une <strong>identité numérique professionnelle</strong> cohérente. L'objectif était de dépasser la simple liste de diplômes pour adopter une <strong>démarche réflexive</strong> sur mes compétences acquises[cite: 5]. Il s'agit d'un outil stratégique pour ma recherche de stage (Avril-Juin 2026).
+        </p>
+      </div>
+
+      <div class="detail-item">
+        <h4>💡 Pourquoi un Portfolio ?</h4>
+        <p>Ce site montre un aspect de moi que le CV papier ne peut pas capturer:</p>
+        <ul style="list-style: disc; padding-left: 20px; color: var(--muted); font-size: 0.95rem; margin-top: 8px; line-height: 1.6;">
+          <li><strong>La Preuve par l'exemple :</strong> Alors que le CV affirme "Je sais coder", le portfolio le <em>prouve</em> en montrant le code et le résultat visuel[cite: 6].</li>
+          <li><strong>La Personnalité :</strong> Le design, le ton et la structure révèlent ma rigueur et ma créativité, des "Soft Skills" invisibles sur un document PDF classique.</li>
+          <li><strong>L'Évolution :</strong> Contrairement à un CV figé, ce portfolio est conçu pour être évolutif tout au long de ma carrière[cite: 8].</li>
+        </ul>
+      </div>
+
+      <div class="detail-item">
+        <h4>⚙️ Réalisation Technique</h4>
+        <p>Développement "Hand-coded" (sans constructeur de site type Wix) pour démontrer la maîtrise technique :</p>
+        <ul style="list-style: disc; padding-left: 20px; color: var(--muted); font-size: 0.95rem; margin-top: 8px;">
+          <li><strong>Langages :</strong> HTML5 sémantique, CSS3 (Flexbox/Grid, Animations), JavaScript (DOM, Modales interactives).</li>
+          <li><strong>Design :</strong> Interface Responsive (Mobile First), mode sombre, et accessibilité.</li>
+        </ul>
+      </div>
+
+      <div class="detail-item">
+        <h4>🧠 Compétence</h4>
+        <p>Développement Front-End, Personal Branding, Communication professionnelle, Capacité d'auto-évaluation.</p>
+      </div>
+
+      <div class="detail-item">
+        <h4>📂 Preuve</h4>
+        <p><em>Vous êtes actuellement en train de naviguer dessus ! (Code source disponible via l'inspecteur).</em></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="modal9" class="modal">
+  <div class="modal-dialog">
+    <button class="close" aria-label="Fermer">×</button>
+    <h3>Projet PHOTO_ATB : Partenariat Thales Alenia Space</h3>
+    
+    <div class="project-details">
+      <div class="detail-item">
+        <h4>🎯 Contexte Industriel</h4>
+        <p>
+          Réalisé en collaboration avec <strong>M. Philippe Cam (Thales)</strong>. L'objectif était de concevoir un système autonome pour surveiller un <strong>banc avionique</strong> (ensemble de calculateurs de satellite). Le système permet de vérifier visuellement l'état des câblages et des LEDs sans intervention humaine physique.
+        </p>
+      </div>
+
+      <div class="detail-item">
+        <h4>⚙️ Réalisation : IoT & Fullstack</h4>
+        <ul style="list-style: disc; padding-left: 20px; color: var(--muted); font-size: 0.95rem; margin-top: 8px; line-height: 1.6;">
+          <li><strong>Système Embarqué :</strong>
+            <br>- Utilisation d'un <strong>Raspberry Pi 3</strong> (Cerveau) et d'un <strong>Raspberry Pico</strong> (Capteurs).
+            <br>- Intégration d'un <strong>capteur de luminosité</strong> pour conditionner la prise de vue (vérification de l'éclairage ambiant).
+            <br>- <strong>Watchdog 24h :</strong> Algorithme assurant une prise de photo automatique de sécurité si aucune action manuelle n'est détectée pendant 24 heures.
+          </li>
+          
+          <li><strong>Interface Web Sécurisée :</strong>
+            <br>- Développement d'un dashboard de contrôle avec authentification stricte.
+            <br>- Gestion fine des droits : <strong>Super Admin</strong> (Configuration), <strong>Admin</strong> (Gestion utilisateurs), et <strong>Opérateur</strong> (Consultation).
+          </li>
+
+          <li><strong>Traçabilité & Logs (Audit) :</strong>
+            <br>- Implémentation d'un système de journalisation complet (Date, Utilisateur, Action) stocké en base de données pour savoir "qui a fait quoi" (connexion, prise de photo, modification de paramètre).
+          </li>
+        </ul>
+      </div>
+
+      <div class="detail-item">
+        <h4>🧠 Compétence</h4>
+        <p>Internet des Objets (IoT), Architecture Client-Serveur, Cybersécurité (Gestion des accès/Logs), Gestion de projet industriel (Cahier des charges).</p>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div id="modal10" class="modal">
+  <div class="modal-dialog">
+    <button class="close" aria-label="Fermer">×</button>
+    <h3>Architecture Réseau Domestique privé</h3>
+    
+    <div class="project-details">
+      <div class="detail-item">
+        <h4>🎯 Objectif : Sécurisation du réseau personnel</h4>
+        <p>
+          Projet personnel visant à sécuriser mon infrastructure domestique, améliorer la confidentialité des données (anti-tracking) et optimiser la bande passante en bloquant les publicités au niveau du réseau.
+        </p>
+      </div>
+
+      <div class="detail-item">
+        <h4>⚙️ Réalisation Technique</h4>
+        <ul style="list-style: disc; padding-left: 20px; color: var(--muted); font-size: 0.95rem; margin-top: 8px; line-height: 1.6;">
+          <li><strong>Déploiement Pi-hole :</strong>
+            <br>Installation sur un serveur Linux (Raspberry Pi/Container). Configuration du serveur DNS pour intercepter et bloquer les requêtes vers les domaines publicitaires et de tracking avant qu'elles n'atteignent les appareils.
+          </li>
+          <li><strong>Segmentation Réseau (Wi-Fi) :</strong>
+            <br>Création de deux réseaux distincts (SSID) pour isoler les flux :
+            <br>- <span style="color:var(--green)">Réseau Privé (Main) :</span> Pour mes appareils personnels, configuré pour utiliser le DNS Pi-hole (zéro pub).
+            <br>- <span style="color:var(--orange)">Réseau Invité (Guest) :</span> Isolation totale (Client Isolation) pour empêcher les invités d'accéder à mes fichiers locaux ou à l'interface d'administration du routeur.
+          </li>
+          <li><strong>Optimisation :</strong>
+            <br>Réduction de la charge réseau et protection de la vie privée sur l'ensemble des appareils connectés (PC, Smartphones, TV connectée) sans installation de logiciel tiers sur chaque machine.
+          </li>
+        </ul>
+      </div>
+
+      <div class="detail-item">
+        <h4>🧠 Compétence</h4>
+        <p>Administration Système Linux, Protocoles Réseaux (DNS, DHCP), Segmentation (VLAN/SSID), Sécurité & Privacy.</p>
+      </div>
+
+      <div class="detail-item">
+        <h4>📂 Preuve : Topologie Réseau</h4>
+        <p><em>Voici le schéma logique de la segmentation mise en place à mon domicile :</em></p>
+        <img src="assets/segmentation.png.jpg" alt="photo installation Pi-hole" class="modal-image">
+      </div>
+    </div> </div> </div> 
+    <div id="modal11" class="modal">
+  <div class="modal-dialog">
+    <button class="close" aria-label="Fermer">×</button>
+    <h3>Audit Sécurité : Pentest Black Box</h3>
+    
+    <div class="project-details">
+      <div class="detail-item">
+        <h4>🎯 Contexte du projet</h4>
+        <p>
+          Réalisation d'un audit de sécurité en condition de "Boîte Noire" sur une infrastructure d'entreprise virtualisée et segmentée. L'objectif était de compromettre la cible finale isolée en appliquant une méthodologie stricte : la <strong>Cyber Kill Chain</strong>.
+        </p>
+      </div>
+
+      <div class="detail-item">
+        <h4>⚙️ Déroulement de l'Attaque</h4>
+        <ul style="list-style: disc; padding-left: 20px; color: var(--muted); font-size: 0.95rem; margin-top: 8px; line-height: 1.6;">
+          <li><strong>Reconnaissance & Intrusion :</strong> Cartographie réseau via Nmap et identification d'un serveur frontal Samba obsolète (4.6.3). Exploitation de la vulnérabilité CVE-2017-7494 (SambaCry) via Metasploit pour obtenir un premier accès root.</li>
+          <li><strong>Mouvement latéral (Pivoting) :</strong> Découverte d'une interface réseau <em>Dual-Homed</em> sur le serveur compromis. Upgrade de la session vers Meterpreter et mise en place d'un Port Forwarding pour atteindre un serveur Web isolé (DVWA) inaccessible depuis l'extérieur.</li>
+          <li><strong>Attaque Web (RCE) :</strong> Compromission applicative par contournement de la protection anti-CSRF à jetons dynamiques (scripting complet avec <code>curl</code> et <code>grep</code>), ouvrant la voie à l'exploitation d'une RCE pour obtenir un reverse shell (www-data).</li>
+          <li><strong>Élévation de privilèges (PrivEsc) :</strong> Détection d'une mauvaise configuration du fichier sudoers (NOPASSWD sur /bin/nc). Exploitation par <em>Binary Hijacking</em> pour basculer root. L'opération s'est conclue par la création d'un relais TCP via mkfifo centralisant le contrôle sur Kali.</li>
+        </ul>
+      </div>
+
+      <div class="detail-item">
+        <h4>🧠 Compétences & Outils</h4>
+        <p>Kali Linux, Metasploit, Nmap, Pivoting réseau, Exploitation CVE, Scripting Bash, Élévation de privilèges.</p>
+      </div>
+
+      
+    </div>
+   </div> 
+  </div> 
+
+  <div id="modal12" class="modal">
+  <div class="modal-dialog">
+    <button class="close" aria-label="Fermer">×</button>
+    <h3>Automatisation Active Directory & PowerShell</h3>
+    
+    <div class="project-details">
+      <div class="detail-item">
+        <h4>🎯 Objectif : Gérer un réseau par le code</h4>
+        <p>
+          Créer un réseau d'entreprise complet sous Windows Server 2025 et automatiser les tâches répétitives (comme l'arrivée ou le départ d'un employé) en créant un script PowerShell sur-mesure.
+        </p>
+      </div>
+
+      <div class="detail-item">
+        <h4>⚙️ Le fonctionnement du Script</h4>
+        <ul style="list-style: disc; padding-left: 20px; color: var(--muted); font-size: 0.95rem; margin-top: 8px; line-height: 1.6;">
+          
+          <li><strong>Installation "Sans Souris" :</strong> La configuration de base du serveur (Pare-feu, création du domaine, adresses IP) a été réalisée à 100% en lignes de commande, sans interface graphique.</li>
+          
+          <li><strong>Arrivée d'un employé (Onboarding) :</strong> Le script lit un simple tableau Excel (CSV) contenant le nom des nouveaux venus. Il crée leurs comptes, leur demande de changer leur mot de passe à la première connexion, et leur génère un dossier de travail ultra-sécurisé où eux seuls ont accès.</li>
+          
+          <li><strong>Départ d'un employé (Offboarding) :</strong> Lorsqu'une personne quitte l'entreprise, le script compresse automatiquement tous ses fichiers dans une archive (ZIP) pour sauvegarder son travail, puis supprime son compte proprement pour des raisons de sécurité.</li>
+          
+          <li><strong>Sécurité et "Anti-erreur" :</strong> Pour éviter les catastrophes en entreprise, j'ai ajouté un mode "Simulation" qui permet de tester le script pour voir ce qu'il ferait sans vraiment le faire. De plus, le script crée un journal de bord horodaté (log) qui enregistre chaque action effectuée.</li>
+        </ul>
+      </div>
+
+      <div class="detail-item">
+        <h4>🧠 Compétences</h4>
+        <p>Administration Windows Server 2025, Programmation PowerShell, Active Directory, Gestion des droits d'accès sécurisés, Automatisation.</p>
+      </div>
+
+      
+      
+    </div>
+   </div>
+  </div> 
+
+  <div id="modal13" class="modal">
+  <div class="modal-dialog">
+    <button class="close" aria-label="Fermer">×</button>
+    <h3>Diagnostic du Réseau Domestique</h3>
+    
+    <div class="project-details">
+      <div class="detail-item">
+        <h4>🎯 Objectif : Comprendre "l'envers du décor"</h4>
+        <p>
+          Analyser mon propre réseau à la maison pour comprendre de l'intérieur comment fonctionne une box d'abonné internet. L'idée était d'observer le trajet exact d'une donnée, de mon ordinateur jusqu'aux serveurs de Google, tout en étudiant l'impact écologique de mon matériel.
+        </p>
+      </div>
+
+      <div class="detail-item">
+        <h4>⚙️ Mes expérimentations</h4>
+        <ul style="list-style: disc; padding-left: 20px; color: var(--muted); font-size: 0.95rem; margin-top: 8px; line-height: 1.6;">
+          
+          <li><strong>Analyse de la Box Internet :</strong> J'ai manipulé mon réseau local pour comprendre le rôle caché de ma box. J'ai pu observer comment elle distribue automatiquement les adresses IP à la maison et comment elle fait le lien avec l'extérieur.</li>
+          
+          <li><strong>Capture de trafic avec Wireshark :</strong> J'ai intercepté les données invisibles qui circulent sur mon réseau. Cela m'a permis d'analyser en direct comment les ordinateurs se parlent entre eux et comment les sites web sécurisent nos informations.</li>
+          
+          <li><strong>Cartographie d'Internet :</strong> J'ai utilisé des outils de traçage réseau (Traceroute) pour suivre pas à pas le chemin de ma connexion à travers le monde, en identifiant chaque routeur traversé jusqu'aux serveurs de Google.</li>
+          
+          <li><strong>Étude Écologique :</strong> J'ai mesuré la consommation électrique réelle de mon matériel informatique afin de calculer son empreinte carbone en fonction de notre production d'énergie.</li>
+        </ul>
+      </div>
+
+      <div class="detail-item">
+        <h4>🧠 Compétences</h4>
+        <p>Analyse de trafic (Wireshark), Routage et traçage réseau, Compréhension globale d'une architecture locale (Box, IP, DNS, DHCP), Sensibilisation écologique (Green IT).</p>
+      </div>
+
+      
+      
+    </div>
+  </div> 
+</div>
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
