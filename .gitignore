@@ -1,0 +1,38 @@
+# --- SÉCURITÉ & SECRETS ---
+# Empêche de donner vos clés API (OpenAI, Firebase, etc.) aux recruteurs
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Fichiers de clés SSH ou certificats
+*.pem.key
+
+# --- DÉPENDANCES ---
+# Ces dossiers pèsent des centaines de Mo. Ils seront réinstallés par le recruteur avec "npm install" ou "yarn"
+node_modules/
+jspm_packages/
+
+# --- DOSSIERS DE BUILD (PRODUCTION) ---
+# Le code transformé pour être mis en ligne (ex: minifié) n'a pas besoin d'être sur GitHub
+dist/
+build/
+.next/
+out/
+.cache/
+
+# --- LOGS (HISTORIQUE D'ERREURS) ---
+# Pas besoin de polluer votre portfolio avec des erreurs de debug
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# --- FICHIERS SYSTÈME / ÉDITEUR ---
+# Pour éviter que vos réglages personnels (Mac ou VS Code) n'apparaissent
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
